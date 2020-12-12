@@ -11,15 +11,11 @@
     <Reference Include="Microsoft.EntityFrameworkCore.Relational">
       <HintPath>C:\Users\Catalin\.nuget\packages\microsoft.entityframeworkcore.relational\2.1.11\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.11" />
-    <PackageReference Include="System.Text.Json" Version="5.0.0" />
   </ItemGroup>
 
   <PropertyGroup>
